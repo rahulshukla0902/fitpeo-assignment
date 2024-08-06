@@ -1,0 +1,44 @@
+.progress-card {
+  background-color: #202028;
+  margin: 10px;
+  width: 90%;
+  height: 50vh;
+  flex: 2;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.card-text {
+  font-size: 10pt;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.card-value {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.value-num {
+  /* padding: 5px; */
+  font-size: 18pt;
+  font-weight: 800;
+}
+
+.percentage-change {
+  font-size: 10pt;
+  font-weight: 500;
+  padding: 5px;
+}
+
+.arrow-up {
+  color: #10c892;
+}
+
+.arrow-down {
+  color: #e65b58;
+}

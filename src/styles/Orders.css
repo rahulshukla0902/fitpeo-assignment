@@ -1,0 +1,57 @@
+.orders {
+  display: flex;
+  flex-direction: column;
+  background-color: #202028;
+  color: white;
+  margin: 10px;
+  margin-top: 30px;
+  height: 50vh;
+  flex: 3;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.orders-title {
+  margin-left: 10px;
+  font-size: 16pt;
+  font-weight: 700;
+}
+
+.orders-table{
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.orders-table th,
+.orders-table td {
+  text-align: left; 
+  vertical-align: middle; 
+  padding: 8px;
+  border-bottom: 1px solid #303038;
+}
+
+.delivered{
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #29ad88;
+  background-color: #1a5448;
+  border-radius: 15px;
+}
+
+.pending{
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #c86876;
+  background-color: #613739;
+  border-radius: 15px;
+}
+
+.cancelled{
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #c86876;
+  background-color: #613739;
+  border-radius: 15px;
+}

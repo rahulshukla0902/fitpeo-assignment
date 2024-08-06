@@ -1,0 +1,97 @@
+.card {
+  /* display: flex; */
+  background-color: #202028;
+  margin: 10px;
+  height: 100px;
+  flex: 0 0 calc(25% - 35px); 
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.card-icon {
+  width: 30px;
+  height: 30px;
+  background-color: #444548;
+  /* margin: 10px 0; */
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fafcfb;
+  cursor: pointer;
+}
+
+.total-orders {
+  background-color: #293364;
+  color: #3c64fa;
+}
+
+.total-delivered {
+  color: #02c88d;
+  background-color: #155346;
+}
+
+.total-cancelled {
+  color: #ee605e;
+  background-color: #5c2e39;
+}
+
+.total-revenue {
+  color: #ec43a8;
+  background-color: #5c284c;
+}
+
+.card-text{
+    font-size: 10pt;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.card-value{
+    display: flex;
+    justify-content: space-between;
+}
+
+.value-num{
+    /* padding: 5px; */
+    font-size: 18pt;
+    font-weight: 800;
+}
+
+.percentage-change{
+    font-size: 10pt;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.arrow-up{
+    color: #10c892;
+}
+
+.arrow-down{
+    color: #e65b58;
+}
+
+
+/* Responsive Design Code */
+@media (max-width: 1024px) {
+  .card {
+    flex: 0 0 calc(33.33% - 20px); 
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex: 0 0 calc(50% - 20px); 
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    flex: 0 0 calc(100% - 20px); 
+    height: 80px; 
+  }
+}

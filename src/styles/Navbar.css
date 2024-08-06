@@ -1,0 +1,32 @@
+
+.search-input {
+  background-color: #3e3f4b;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  color: white;
+  margin-left: 10vh;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+}
+
+.icon,
+.profile-pic {
+  width: 30px;
+  height: 30px;
+  background-color: #3e3f4b;
+  margin-left: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 50px;
+}
+
+.active{
+  color: #7393fc;
+}

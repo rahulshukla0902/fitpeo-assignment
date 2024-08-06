@@ -1,0 +1,66 @@
+.info-card {
+  background-color: #202028;
+  margin: 10px;
+  width: 90%;
+  height: 60vh;
+  flex: 2;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.info-card-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-card-item {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-card-icon {
+  font-size: 10pt;
+  width: 40px;
+  height: 40px;
+  background-color: #444548;
+  /* margin: 10px 0; */
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.small {
+  width: 20px;
+  height: 20px;
+}
+
+.info-card-item-text {
+  font-size: 15pt;
+  font-weight: 500;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.goal {
+  color: #f2732c;
+  background-color: #5f3237;
+}
+
+.popular-dishes {
+  color: #7c95ef;
+  background-color: #293368;
+}
+
+.menu {
+  color: #49a0be;
+  background-color: #214a60;
+}
