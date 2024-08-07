@@ -27,6 +27,6 @@
   gap: 50px;
 }
 
-.active{
-  color: #7393fc;
+.highlight{
+  color: #7393fc !important;
 }

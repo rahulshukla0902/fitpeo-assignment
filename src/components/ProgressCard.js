@@ -10,13 +10,13 @@ export default function ProgressCard() {
     <div className="progress-card">
       <div className="card-text">Net Profit</div>
       <div className="card-value">
-        <span className="value-num">$6759.25</span>
+        <span className="progress-card-value-num">$6759.25</span>
         <div
           className="circular-progress-bar"
           style={{ width: 150, height: 150 }}
         >
           <CircularProgressbarWithChildren
-            value={66}
+            value={70}
             styles={buildStyles({
               pathColor: "#7395ff",
               textColor: "#7395ff",
@@ -33,7 +33,7 @@ export default function ProgressCard() {
                 alignItems: "center",
               }}
             >
-              <strong>66%</strong>
+              <strong>70%</strong>
               <strong>Goal Completed</strong>
             </div>
           </CircularProgressbarWithChildren>

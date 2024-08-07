@@ -10,24 +10,24 @@ export default function InfoCard() {
       <div className="info-card-list">
         <div className="info-card-item">
           <div style={{ display: "flex", alignItems: "center" }}>
-            <FlagOutlinedIcon className="info-card-icon goal" />
+            <span className="info-card-icon goal"><FlagOutlinedIcon /></span>
             <span className="info-card-item-text">Goals</span>
           </div>
-          <span className="info-card-icon small">&gt;</span>
+          <span className="info-card-icon small">&#9658;</span>
         </div>
         <div className="info-card-item">
           <div style={{ display: "flex", alignItems: "center" }}>
-            <LunchDiningOutlinedIcon className="info-card-icon popular-dishes" />
+            <span className="info-card-icon popular-dishes"><LunchDiningOutlinedIcon /></span>
             <span className="info-card-item-text">Popular Dishes</span>
           </div>
-          <span className="info-card-icon small">&gt;</span>
+          <span className="info-card-icon small">&#9658;</span>
         </div>
         <div className="info-card-item">
           <div style={{ display: "flex", alignItems: "center" }}>
-            <MenuBookOutlinedIcon className="info-card-icon menu" />
+            <span className="info-card-icon menu"><MenuBookOutlinedIcon /></span>
             <span className="info-card-item-text">Menus</span>
           </div>
-          <span className="info-card-icon small">&gt;</span>
+          <span className="info-card-icon small">&#9658;</span>
         </div>
       </div>
     </div>

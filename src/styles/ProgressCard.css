@@ -23,9 +23,9 @@
   align-items: center;
 }
 
-.value-num {
+.progress-card-value-num {
   /* padding: 5px; */
-  font-size: 18pt;
+  font-size: 28pt;
   font-weight: 800;
 }
 

@@ -17,8 +17,8 @@
 }
 
 .info-card-item {
-  margin: 20px;
-  padding: 20px;
+  margin: 15px;
+  padding: 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -26,11 +26,11 @@
 
 .info-card-icon {
   font-size: 10pt;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   background-color: #444548;
   /* margin: 10px 0; */
-  border-radius: 20px;
+  border-radius: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,8 +39,10 @@
 }
 
 .small {
-  width: 20px;
-  height: 20px;
+  font-size: 15px;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
 }
 
 .info-card-item-text {

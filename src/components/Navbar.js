@@ -16,7 +16,7 @@ export default function Navbar() {
         <div className="icon">
           <SettingsOutlinedIcon />
         </div>
-        <div className="icon active">
+        <div className="icon highlight">
           <NotificationsActiveIcon/>
         </div>
         <div className="profile-pic">

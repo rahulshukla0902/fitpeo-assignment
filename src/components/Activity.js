@@ -50,7 +50,7 @@ export default function Activity() {
   return (
     <div className="activity">
       <span className="activity-title">Activity</span>
-      <ResponsiveContainer width="100%" height={300}>
+      <ResponsiveContainer width="100%" height={300} className={'chart'}>
         <BarChart
           data={sampleData}
           margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
