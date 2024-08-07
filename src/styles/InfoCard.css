@@ -66,3 +66,69 @@
   color: #49a0be;
   background-color: #214a60;
 }
+
+@media (max-width: 768px) {
+  .info-card {
+    width: 95%; 
+    height: auto; 
+    padding: 5px; 
+  }
+
+  .info-card-item {
+    margin: 10px; 
+    padding: 10px; 
+    flex-direction: row; 
+    align-items: center; 
+  }
+
+  .info-card-item-text {
+    font-size: 14pt; 
+    margin-left: 10px; 
+  }
+
+  .info-card-icon {
+    font-size: 12pt; 
+    width: 50px;
+    height: 50px; 
+    align-items: center;
+  }
+
+  .small {
+    font-size: 12px;
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .info-card {
+    width: 95%; 
+    height: auto; 
+    padding: 5px; 
+  }
+
+  .info-card-item {
+    margin: 5px; 
+    padding: 8px; 
+    flex-direction: row; 
+    align-items: center; 
+  }
+
+  .info-card-item-text {
+    font-size: 12pt; 
+    margin-left: 5px; 
+  }
+
+  .info-card-icon {
+    font-size: 10pt; 
+    width: 40px;
+    height: 40px; 
+    align-items: center;
+  }
+
+  .small {
+    font-size: 10px;
+    width: 20px;
+    height: 20px; 
+  }
+}
