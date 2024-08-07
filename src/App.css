@@ -20,15 +20,15 @@ html {
 
 .logo {
   position: fixed;
-  top: 10px; 
+  top: 10px;
   left: 10px;
   z-index: 2;
 }
 
 .logo img {
   margin: 5px;
-  width: 3vw; /* Adjust the size as needed */
-  height: 6vh; /* Maintain the aspect ratio */
+  width: 3vw; 
+  height: 6vh; 
 }
 
 .navbar {
@@ -50,6 +50,7 @@ html {
   display: flex;
   flex: 1;
   margin-top: 10vh;
+  width: 100%;
   height: calc(100vh - 10vh);
   overflow: hidden;
 }
@@ -64,47 +65,47 @@ html {
 }
 
 @media (max-width: 768px) {
-  .navbar {
-    padding: 10px 10px;
+  .logo img {
+    width: 10vw; 
+    height: 8vh; 
   }
 
   .sidebar {
-    width: 15vw;
-  }
-
-  .main-content {
-    flex-direction: row;
+    width: 20vw; 
   }
 
   .dashboard {
-    width: 100%;
-    padding: 10px;
+    width: 80vw; 
   }
 }
 
 @media (max-width: 480px) {
-  .navbar {
-    /* flex-direction: column; */
-    width: 100vw;
-    height: 10vh;
-    /* padding: 5px; */
+  .logo img {
+    margin-left: 10px;
+    width: 11vw;
+    height: 5vh;
   }
 
   .sidebar {
-    width: 15vw;
-    flex-direction: column;
-    justify-content: space-around;
-    height: auto;
+    width: 20vw; 
+    height: auto; 
+    position: relative; 
+    z-index: 1; 
   }
 
   .main-content {
     flex-direction: row;
-    height: calc(100vh - 10vh);
-    /* margin-top: 20vh; */
+    height: calc(100vh - 8vh);
+    margin-top: 8vh; 
   }
 
   .dashboard {
-    width: 100%;
+    width: 80vw; 
     padding: 10px;
+    overflow-x: hidden; 
+  }
+
+  .navbar {
+    height: 8vh; 
   }
 }

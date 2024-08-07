@@ -19,3 +19,26 @@
   .chart{
     margin-top: 10px;
   }
+
+  @media (max-width: 768px) {
+    .activity {
+      height: 40vh; 
+      margin: 5px; 
+    }
+  
+    .activity-title {
+      font-size: 14pt; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .activity {
+      width: 95%;
+      height: 40vh;
+      margin: 5px;
+    }
+  
+    .activity-title {
+      font-size: 12pt; 
+    }
+  }

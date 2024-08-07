@@ -30,3 +30,24 @@
 .highlight{
   color: #7393fc !important;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 10px; 
+  }
+
+  .search-input {
+    width: 150px; 
+    margin-right: 5px; 
+  }
+
+  .header-icons {
+    gap: 5px; 
+  }
+
+  .icon,
+  .profile-pic {
+    width: 25px;
+    height: 25px; 
+  }
+}

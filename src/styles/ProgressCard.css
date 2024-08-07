@@ -1,7 +1,7 @@
 .progress-card {
   background-color: #202028;
   margin: 10px;
-  width: 90%;
+  width: 95%;
   height: 50vh;
   flex: 2;
   align-items: center;
@@ -41,4 +41,51 @@
 
 .arrow-down {
   color: #e65b58;
+}
+
+
+@media (max-width: 768px) {
+  .progress-card {
+    width: 100%; 
+  }
+
+  .card-text {
+    font-size: 14pt; 
+  }
+
+  .progress-card-value-num {
+    font-size: 26pt; 
+  }
+
+  .circular-progress-bar {
+    width: 100px; 
+    height: 100px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .progress-card {
+    width: 95%; 
+  }
+
+  .card-text {
+    font-size: 12pt; 
+  }
+
+  .progress-card-value-num {
+    font-size: 22pt; 
+  }
+
+  .circular-progress-bar {
+    width: 70px !important; 
+    height: 70px !important; 
+  }
+
+  .percentage-change {
+    font-size: 10pt; 
+  }
+
+  .circular-progress-bar div {
+    font-size: 5pt !important; 
+  }
 }

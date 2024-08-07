@@ -6,7 +6,7 @@ export default function Orders() {
   return (
     <div className="orders">
       <span className="orders-title">Recent Orders</span>
-      <div>
+      <div className="orders-table-container">
         <table className="orders-table">
           <thead>
             <tr>

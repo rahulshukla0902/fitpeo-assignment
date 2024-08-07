@@ -17,10 +17,13 @@
   font-weight: 700;
 }
 
-.orders-table{
-  width: 100%;
+.orders-table-container {
+  overflow-x: auto; 
   margin-top: 20px;
-  margin-left: 10px;
+}
+
+.orders-table {
+  min-width: 800px; 
 }
 
 .orders-table th,
@@ -54,4 +57,16 @@
   color: #c86876;
   background-color: #613739;
   border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+  .orders-table {
+    min-width: 500px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .orders-table {
+    min-width: 300px; 
+  }
 }
