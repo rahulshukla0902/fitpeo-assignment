@@ -34,7 +34,7 @@
   @media (max-width: 480px) {
     .activity {
       width: 95%;
-      height: 40vh;
+      height: auto;
       margin: 5px;
     }
   
