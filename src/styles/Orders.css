@@ -66,6 +66,9 @@
 }
 
 @media (max-width: 480px) {
+  .orders{
+    height: auto;
+  }
   .orders-table {
     min-width: 300px; 
   }
